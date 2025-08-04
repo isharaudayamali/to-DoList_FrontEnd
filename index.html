@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="stat-container">
+            <div class="details">
+                <h1>To-Do List</h1>
+                <p>Keep it up</p>
+                <div id="progressbar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="stats-numbers">
+                <p id="numbers"> 2/3 </p>
+            </div>
+        </div>
+        <form id="taskForm">
+            <input type="text" id="taskInput" placeholder="Write your task">
+            <button id="newtask" button type="submit">+</button>
+        </form>
+        
+
+            <div class="taskItem">
+                
+                    <!-- <label for="taskCheckbox">Task:</label> -->
+                    <input type="checkbox" id="cb" name="Check this box to select the task">
+
+                    
+                
+               
+                    <!-- /*<img src="edit_1159633.png" alt="Edit Task" onclick="editTask()" >*/ -->
+                    <img src="delete_11088810.png" alt="Delete Task" onclick="deleteTask()">
+
+                </div>
+ 
+
+    <!-- <ul class="task-list">
+        <li>task1</li>
+        <li>task1</li>
+        <li>task1</li>
+     </ul> -->
+
+
+    <script src="./app.js"></Script>
+</body>
+
+</html>
